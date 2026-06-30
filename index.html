@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VALORE | ABAYAS & TWILLIES</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #eee4cf;
+  color: #44271c;
+  font-family: "Didot", "Bodoni 72", "Cormorant Garamond", "Times New Roman", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.background-pattern {
+  position: fixed;
+  inset: 0;
+  opacity: 0.16;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1100px;
+  aspect-ratio: 4 / 3;
+  padding: 45px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 250px;
+  max-width: 60%;
+  margin-bottom: 32px;
+  object-fit: contain;
+}
+
+.tag {
+  font-size: 20px;
+  letter-spacing: 14px;
+  margin-bottom: 28px;
+}
+
+.divider {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 42px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  height: 1px;
+  background: #44271c;
+  flex: 1;
+  opacity: 0.45;
+}
+
+.diamond {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 86px;
+  font-weight: 300;
+  letter-spacing: 18px;
+  line-height: 1;
+  <!-- margin-bottom: 55px; -->
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 300;
+  <!-- letter-spacing: 18px; -->
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+.text {
+  font-size: 30px;
+  line-height: 1.55;
+  margin-bottom: 42px;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.instagram svg {
+  width: 46px;
+  height: 46px;
+}
+
+.separator {
+  width: 1px;
+  height: 48px;
+  background: #44271c;
+  opacity: 0.45;
+}
+
+.instagram a {
+  color: #44271c;
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 16px;
+  letter-spacing: 7px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    aspect-ratio: auto;
+    min-height: 100vh;
+    padding: 35px 22px;
+  }
+
+  .logo {
+    width: 190px;
+  }
+
+  .tag {
+    font-size: 14px;
+    letter-spacing: 7px;
+  }
+
+  .divider {
+    width: 230px;
+    margin-bottom: 34px;
+  }
+
+  h1 {
+    font-size: 43px;
+    letter-spacing: 8px;
+    <!-- margin-bottom: 38px; -->
+  }
+
+  h2 {
+    font-size: 32px;
+    <!-- letter-spacing: 8px; -->
+    margin-bottom: 34px;
+  }
+
+  .text {
+    font-size: 21px;
+  }
+
+  .instagram {
+    font-size: 22px;
+  }
+
+  .footer {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <img src="logo.png" class="logo" alt="VALORE Logo">
+
+  <div class="tag">CURATED COLLECTION</div>
+
+  <div class="divider">
+    <span class="diamond">◆</span>
+  </div>
+
+  <h1>NEW EXPERIANCE</h1>
+  <h2>COMING SOON</h2>
+
+<!--   <p class="text">
+    COMING SOON<br>
+  </p> -->
+
+  <p class="text">
+    Modern Abayas & Twillies<br>
+    Inspired by Emirati Elegance.
+  </p>
+
+  <div class="instagram">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+      <circle cx="12" cy="12" r="4"></circle>
+      <circle cx="17.5" cy="6.5" r="1"></circle>
+    </svg>
+
+    <div class="separator"></div>
+
+    <a href="https://www.instagram.com/ilvalore.ae/" target="_blank">
+      @ilvalore.ae
+    </a>
+  </div>
+
+  <div class="footer">
+    © 2026 VALORE. ALL RIGHTS RESERVED.
+  </div>
+
+</div>
+
+</body>
+</html>
